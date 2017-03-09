@@ -1,0 +1,11 @@
+Product 1
+ID: 200
+Name: Cheap table X800
+Description: This is the cheapest table you can find that still meets its goal. 4 people max.
+
+Product 2
+ID: 201
+Name: Luxury table Z2100
+Description: A long table, suitable for a meeting room.
+
+ 

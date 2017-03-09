@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+@font-face {
+  font-family: 'robotothin';
+  src: url('Roboto-Thin-webfont.eot');
+  src: url('Roboto-Thin-webfont.eot?#iefix') format('embedded-opentype'),
+       url('Roboto-Thin-webfont.woff') format('woff'),
+       url('Roboto-Thin-webfont.ttf') format('truetype'),
+       url('Roboto-Thin-webfont.svg#robotothin') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.homeImage {
+  height: auto;
+  width: auto;
+  max-width: 700px;
+  max-height: 700px;
+  margin: auto;
+  border-color: red;
+}
+
+body {
+  /*background-size: 150%;*/
+}
+
+h1 {
+  font-family: 'robotothin';
+  font-weight: 100;
+  font-size: 60px;
+  letter-spacing: 5px;
+  padding: 0;
+
+}
+
+.info{
+  width: 900px;
+  height: auto;
+  margin: auto;
+  font-family: 'robotothin';
+  text-align: right;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 17px 37px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 300px;
+
+}
+
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+  border-radius: 10px;
+}
+.news{
+  font-family: 'robotothin';
+  font-weight: 300;
+  font-size: 20px;
+  color: red;
+  background-color: white;
+  color: black;
+  border: 1px solid #4CAF50;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+.newsDimentions{
+  width: auto;
+  height: 100;
+
+}
+
+.button1:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.button2 {
+  background-color: white;
+  color: black;
+  border: 2px solid #008CBA;
+  border-radius: 10px;
+}
+
+.button2:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+p.description{
+  text-align: center;
+  font-family: 'robotothin';
+}
+
+ol{
+  font-family: 'Varela Round';
+  margin: auto;
+  text-align: left;
+  list-style-position:inside;
+  padding-left: 100px;
+  padding-top: 100px;
+}
+
+.productDisplay {
+  height: auto;
+  width: auto;
+  max-width: 700px;
+  max-height: 700px;
+  margin: auto;
+  padding-left: 100;
+}
+
+footer  {
+  font-family: 'robotothin';
+  font-weight: 300;
+  font-size: 15px;
+}
